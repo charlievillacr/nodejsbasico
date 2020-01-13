@@ -9,12 +9,12 @@ module.exports = {
             //  - Proceso de datos
             //  - Petición HTTP
             //  - Query a base de datos
-            if (i === loopLimit) console.log("He llegado al final!");
+            if (i === loopLimit) console.log("He llegado al final del for!");
         }
         console.log('El bucle ha finalizado!');
     },
     simulateAsync: function(){
-        console.log('Comenzando bloqueo simulado...');
+        console.log('Comenzando bloqueo simulado de Async...');
         setImmediate(()=>{
             for(let i = 0; i <= loopLimit; i += 1) {
                 // Simulación para operación intensiva
