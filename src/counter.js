@@ -1,6 +1,6 @@
 module.exports = {
     from0to: function(n, inc) {
-        console.log(`Counting from 0 to ${n} by ${inc}:`);
+        console.log(`Contando desde 0 a ${n} por ${inc}:`);
         for(let i = 0; i < n; i += inc){
             console.log(i);
         }
