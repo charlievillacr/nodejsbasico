@@ -1,12 +1,12 @@
 const errors = require("./src/errors");
-const handle = require("./src/handling");
+// const handle = require("./src/handling");
 
-handle.errorFirstCallbackWrong();
+// handle.errorFirstCallbackWrong();
 
-// try {
-    // errors.standardErr.range();
-// } catch(err) {
-//     console.log("Ha ocurrido un error: ", err);
-// }
+try {
+    errors.standardErr.range();
+} catch(err) {
+    console.log("Ha ocurrido un error: ", err);
+}
 
-// console.log("Hola");
+console.log("Hola");
